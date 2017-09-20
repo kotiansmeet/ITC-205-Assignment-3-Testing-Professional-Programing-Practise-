@@ -74,8 +74,32 @@ import static org.junit.Assert.*;
       
     }
 	/**
-     * Test of ticketInserted method, of class EntryController.
+     *Unit testing of Ticketsertedserted method, of class EntryController.
      */
+	   @Test
+    public void testTicketInserted() 
+	{
+        System.out.println("ticketInserted");
+        String barcode = "";
+        EntryController instance = null;
+        instance.ticketInserted(barcode);
+        // TODO review the generated test code and remove the default call to fail.
+	}
 
+	 /**
+     * Unit Testing of ticketTaken method, of class EntryController.
+     */
+	 @Test
+    public void testTicketTaken() {
+        System.out.println("ticketTaken");
+        EntryController instance = null;
+        instance.ticketTaken();
+		
+        // Passed ("The test case is a prototype.");
+    }
+	
+	 /**
+     * Unit Testing of notifyCarparkEvent method, of class EntryController.
+     */
 	 
 	 
