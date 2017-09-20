@@ -51,3 +51,13 @@ import static org.junit.Assert.*;
      * Test of carEventDetected method, of class EntryController.
 	 
      */
+	   @Test
+    public void testCarEventDetected() {
+        System.out.println("carEventDetected");
+        String detectorId = "";
+        boolean carDetected = false;
+        EntryController instance = null;
+        instance.carEventDetected(detectorId, carDetected);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
