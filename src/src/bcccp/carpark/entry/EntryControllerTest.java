@@ -101,5 +101,15 @@ import static org.junit.Assert.*;
 	 /**
      * Unit Testing of notifyCarparkEvent method, of class EntryController.
      */
-	 
+	 @Test
+    public void testNotifyCarparkEvent() {
+        System.out.println("notifyCarparkEvent");
+        EntryController instance = null;
+		 instance.notifyCarparkEvent();
+        // Unit Testing of notifyCarparkEvent method.
+      
+    }
+    
+}
+
 	 
