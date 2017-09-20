@@ -56,6 +56,14 @@ import static org.junit.Assert.*;
 	 /**
      * Test of ticketPaid method, of class PaystationController.
      */
-	 
+
+ @Test
+    public void testTicketPaid() {
+        System.out.println("ticketPaid");
+        PaystationController instance = null;
+        instance.ticketPaid();
+        fail("The test case is a prototype.");
+    }
+
 	 
 	
