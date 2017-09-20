@@ -50,6 +50,12 @@ import static org.junit.Assert.*;
         instance.ticketInserted(barcode);
 		
 		// Intigration test has complited. 
+	
 	}
 	
+	 /**
+     * Test of ticketPaid method, of class PaystationController.
+     */
+	 
+	 
 	
