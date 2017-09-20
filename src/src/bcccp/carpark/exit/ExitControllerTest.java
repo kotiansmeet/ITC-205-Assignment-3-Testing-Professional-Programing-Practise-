@@ -66,6 +66,10 @@ public class ExitControllerTest
         instance.ticketInserted(ticketStr);
         // TODO review the generated test code and remove the default call to fail.
 	}
+	
+    /**
+     * Test of ticketTaken method, of class ExitController.
+     */
 	 
 	 
 }
