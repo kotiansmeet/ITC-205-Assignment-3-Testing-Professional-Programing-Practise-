@@ -49,4 +49,5 @@ import static org.junit.Assert.*;
 	
 	 /**
      * Test of carEventDetected method, of class EntryController.
+	 
      */
