@@ -34,4 +34,11 @@ import static org.junit.Assert.*;
     @After
     public void tearDown() {
     }
-}
+
+	
+	}
+    /*
+	 * 
+     * Intigration Test of ticketInserted method, of class PaystationController.
+     */
+
