@@ -76,6 +76,15 @@ import static org.junit.Assert.*;
 	/**
      * Test of ticketInserted method, of class EntryController.
      */
+	   @Test
+    public void testTicketInserted() 
+	{
+        System.out.println("ticketInserted");
+        String barcode = "";
+        EntryController instance = null;
+        instance.ticketInserted(barcode);
+        // TODO review the generated test code and remove the default call to fail.
+	}
 
 	 
 	 
