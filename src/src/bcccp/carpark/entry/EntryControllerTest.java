@@ -89,4 +89,12 @@ import static org.junit.Assert.*;
 	 /**
      * Unit Testing of ticketTaken method, of class EntryController.
      */
+	 @Test
+    public void testTicketTaken() {
+        System.out.println("ticketTaken");
+        EntryController instance = null;
+        instance.ticketTaken();
+		
+        // Passed ("The test case is a prototype.");
+    }
 	 
