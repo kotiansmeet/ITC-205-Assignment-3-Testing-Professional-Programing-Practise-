@@ -16,3 +16,23 @@ import static org.junit.Assert.*;
  *	Creting the Unit Testing class for method in ExitController.java 
  * @author User
  */
+public class ExitControllerTest {
+    
+    public ExitControllerTest() {
+    }
+    
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    
+    @AfterClass
+    public static void tearDownClass() {
+    }
+    
+    @Before
+    public void setUp() {
+    }
+    
+    @After
+    public void tearDown() {
+    }
