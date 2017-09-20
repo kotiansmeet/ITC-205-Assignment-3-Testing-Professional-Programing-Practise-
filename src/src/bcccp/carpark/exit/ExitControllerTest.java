@@ -58,6 +58,10 @@ public class ExitControllerTest
      * Test of ticketInserted method, of class ExitController.
      */
 	 
+	 @Test
+    public void testTicketInserted() {
+        System.out.println("ticketInserted");
+        String ticketStr = "";
 	 
 	 
 }
