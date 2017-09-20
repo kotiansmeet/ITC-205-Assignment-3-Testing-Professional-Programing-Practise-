@@ -19,3 +19,23 @@ import static org.junit.Assert.*;
  *
  * @author User
  */
+ public class EntryControllerTest {
+    
+    public EntryControllerTest() {
+    }
+    
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    
+    @AfterClass
+    public static void tearDownClass() {
+    }
+    
+    @Before
+    public void setUp() {
+    }
+    
+    @After
+    public void tearDown() {
+    }
