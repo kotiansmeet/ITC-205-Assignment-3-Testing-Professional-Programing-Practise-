@@ -70,10 +70,12 @@ import static org.junit.Assert.*;
     public void testButtonPushed() {
         System.out.println("buttonPushed");
         EntryController instance = null;
-        instance.buttonPushed();
-        
+        instance.buttonPushed();        
       
     }
+	/**
+     * Test of ticketInserted method, of class EntryController.
+     */
 
 	 
 	 
