@@ -62,6 +62,10 @@ public class ExitControllerTest
     public void testTicketInserted() {
         System.out.println("ticketInserted");
         String ticketStr = "";
+		ExitController instance = null;
+        instance.ticketInserted(ticketStr);
+        // TODO review the generated test code and remove the default call to fail.
+	}
 	 
 	 
 }
