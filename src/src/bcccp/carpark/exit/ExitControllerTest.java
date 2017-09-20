@@ -16,7 +16,8 @@ import static org.junit.Assert.*;
  *	Creting the Unit Testing class for method in ExitController.java 
  * @author User
  */
-public class ExitControllerTest {
+public class ExitControllerTest
+ {
     
     public ExitControllerTest() {
     }
@@ -42,4 +43,10 @@ public class ExitControllerTest {
      * Unit Testing of carEventDetected method, of class ExitController.
      */
 	 
+	  @Test
+    public void testCarEventDetected() {
+        System.out.println("carEventDetected");
+        String detectorId = "";
+
+}
 	 
