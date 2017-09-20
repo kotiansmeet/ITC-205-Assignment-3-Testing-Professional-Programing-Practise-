@@ -70,7 +70,9 @@ public class ExitControllerTest
     /**
      * Test of ticketTaken method, of class ExitController.
      */
-	 
+	  @Test
+    public void testTicketTaken() {
+        System.out.println("ticketTaken");
 	 
 }
 	 
