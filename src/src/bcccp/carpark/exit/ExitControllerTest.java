@@ -35,4 +35,11 @@ public class ExitControllerTest {
     
     @After
     public void tearDown() {
+		
     }
+
+	 /**
+     * Unit Testing of carEventDetected method, of class ExitController.
+     */
+	 
+	 
