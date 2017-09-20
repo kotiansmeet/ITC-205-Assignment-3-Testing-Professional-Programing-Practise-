@@ -74,7 +74,7 @@ import static org.junit.Assert.*;
       
     }
 	/**
-     * Test of ticketInserted method, of class EntryController.
+     *Unit testing of Ticketsertedserted method, of class EntryController.
      */
 	   @Test
     public void testTicketInserted() 
