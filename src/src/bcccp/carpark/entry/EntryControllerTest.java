@@ -86,5 +86,7 @@ import static org.junit.Assert.*;
         // TODO review the generated test code and remove the default call to fail.
 	}
 
-	 
+	 /**
+     * Unit Testing of ticketTaken method, of class EntryController.
+     */
 	 
