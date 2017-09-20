@@ -47,6 +47,12 @@ public class ExitControllerTest
     public void testCarEventDetected() {
         System.out.println("carEventDetected");
         String detectorId = "";
+		boolean carDetected = false;
+        ExitController instance = null;
+        instance.carEventDetected(detectorId, carDetected);
+        // TODO review the generated test code and remove the default call to fail.
+        
+    }
 
 }
 	 
