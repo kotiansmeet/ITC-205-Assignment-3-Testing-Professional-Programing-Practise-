@@ -97,4 +97,9 @@ import static org.junit.Assert.*;
 		
         // Passed ("The test case is a prototype.");
     }
+	
+	 /**
+     * Unit Testing of notifyCarparkEvent method, of class EntryController.
+     */
+	 
 	 
