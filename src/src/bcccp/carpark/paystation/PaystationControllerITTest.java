@@ -42,3 +42,12 @@ import static org.junit.Assert.*;
      * Intigration Test of ticketInserted method, of class PaystationController.
      */
 
+	  @Test
+    public void testTicketInserted() {
+        System.out.println("ticketInserted");
+        String barcode = "";
+        PaystationController instance = null;
+        instance.ticketInserted(barcode);
+	}
+	
+	
