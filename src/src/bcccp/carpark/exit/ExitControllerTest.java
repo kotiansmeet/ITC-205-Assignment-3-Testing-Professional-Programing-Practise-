@@ -54,5 +54,11 @@ public class ExitControllerTest
         
     }
 
+	/**
+     * Test of ticketInserted method, of class ExitController.
+     */
+	 
+	 
+	 
 }
 	 
