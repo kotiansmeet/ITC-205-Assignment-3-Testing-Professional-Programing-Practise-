@@ -66,4 +66,14 @@ import static org.junit.Assert.*;
      * Test of buttonPushed method, of class EntryController.
      */
 	 
+	  @Test
+    public void testButtonPushed() {
+        System.out.println("buttonPushed");
+        EntryController instance = null;
+        instance.buttonPushed();
+        
+      
+    }
+
+	 
 	 
