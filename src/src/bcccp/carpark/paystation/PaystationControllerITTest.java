@@ -48,6 +48,8 @@ import static org.junit.Assert.*;
         String barcode = "";
         PaystationController instance = null;
         instance.ticketInserted(barcode);
+		
+		// Intigration test has complited. 
 	}
 	
 	
