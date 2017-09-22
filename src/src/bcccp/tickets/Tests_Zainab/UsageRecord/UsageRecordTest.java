@@ -6,6 +6,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+
+//Defining test class for UsageRecords testing
 public class UsageRecordTest {
   
   String id = "Sample Ticket ID";
