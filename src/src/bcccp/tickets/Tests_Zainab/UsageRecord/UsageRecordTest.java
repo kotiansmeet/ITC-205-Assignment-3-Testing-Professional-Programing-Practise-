@@ -31,4 +31,9 @@ public class UsageRecordTest {
 	public void testGetEndTime() {
 		assertEquals(uRec.endDateTime, uRec.getEndTime());
 	}
+	
+	@Test
+	public void testGetSeasonTicketId() {
+		assertEquals(uRec.ticketId, uRec.getSeasonTicketId());
+	}
 }
