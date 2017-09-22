@@ -11,9 +11,4 @@ public class UsageRecordTest {
 	long endTime = 1230;
 	UsageRecord uRec = new UsageRecord(id,startTime);
 
-	
-	@Test
-	public void testUsageRecord() {
-		assertEquals(uRec.ticketId, id);
-	}
 }
