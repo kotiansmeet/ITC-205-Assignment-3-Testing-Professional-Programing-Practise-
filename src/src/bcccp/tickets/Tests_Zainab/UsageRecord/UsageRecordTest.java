@@ -15,4 +15,10 @@ public class UsageRecordTest {
 	public void testUsageRecord() {
 		assertEquals(uRec.ticketId, id);
 	}
+	
+	@Test
+	public void testFinalise() {
+		uRec.finalise(endTime);
+		assertEquals(uRec.endDateTime, endTime);
+	}
 }
