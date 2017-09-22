@@ -21,4 +21,9 @@ public class UsageRecordTest {
 		uRec.finalise(endTime);
 		assertEquals(uRec.endDateTime, endTime);
 	}
+	
+	@Test
+	public void testGetStartTime() {
+		assertEquals(uRec.startDateTime, uRec.getStartTime());
+	}
 }
