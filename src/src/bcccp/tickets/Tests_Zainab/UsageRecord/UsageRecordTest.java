@@ -9,8 +9,10 @@ import org.junit.Test;
 
 //Defining test class for UsageRecords testing
 public class UsageRecordTest {
-  
-  String id = "Sample Ticket ID";
+	
+	
+  //Assigning values to variables for testing
+  	String id = "Sample Ticket ID";
 	long startTime = 1700;
 	long endTime = 1230;
 	UsageRecord uRec = new UsageRecord(id,startTime);
