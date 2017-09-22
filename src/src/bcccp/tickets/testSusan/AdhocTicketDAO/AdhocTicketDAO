@@ -49,9 +49,9 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
 	@Override
 	public List<IAdhocTicket> getCurrentTickets() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+		// Added Auto-generated method stub
+		return Collections.unmodifiableList(new ArrayList<IAdhocTicket>(currentTickets.values()));	
+		}
 
 	
 	
