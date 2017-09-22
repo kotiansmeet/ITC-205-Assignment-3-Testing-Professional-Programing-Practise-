@@ -36,4 +36,11 @@ public class UsageRecordTest {
 	public void testGetSeasonTicketId() {
 		assertEquals(uRec.ticketId, uRec.getSeasonTicketId());
 	}
+	
+	@Test
+	public void testToString() {
+		String expectedString = "Usage : startDateTime : " + startTime + ", endDateTime: " + endTime;
+		uRec.endDateTime = endTime;
+		assertEquals(uRec.toString(), expectedString);
+	}
 }
