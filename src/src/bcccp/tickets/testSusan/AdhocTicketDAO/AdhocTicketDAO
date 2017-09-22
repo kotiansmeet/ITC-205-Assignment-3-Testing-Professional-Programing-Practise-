@@ -24,19 +24,17 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 	}
 	
 		
-		public String getAdhocTicketDAO(){   //get methods
-			return AdhocTicketDAO;          //returns the value
-			
-		}
-		//TODO Implement constructor
-	}
+		
 
 
 
 	@Override
 	public IAdhocTicket createTicket(String carparkId) {
+	    IAdhocTicket ticket = adhocTicketFactory_.make(carparkId, ++currentTicketNo);
+	    currentTickets.put(ticket.getBarcode(), ticket);
+	    return ticket;
 		// TODO Auto-generated method stub
-		return null;
+		
 	}
 
 
