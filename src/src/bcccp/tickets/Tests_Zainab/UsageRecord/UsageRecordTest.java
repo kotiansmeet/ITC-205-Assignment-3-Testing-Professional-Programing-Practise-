@@ -15,5 +15,4 @@ public class UsageRecordTest {
 	public void testUsageRecord() {
 		assertEquals(uRec.ticketId, id);
 	}
-
 }
