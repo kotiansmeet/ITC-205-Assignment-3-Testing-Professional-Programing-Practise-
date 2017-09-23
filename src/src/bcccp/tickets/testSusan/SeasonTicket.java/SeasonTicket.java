@@ -85,6 +85,15 @@ public class SeasonTicket implements ISeasonTicket {
 		// TODO Auto-generated method stub
 		return Collections.unmodifiableList(usages);
 	}
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Carpark    : " + carparkId + "\n" +
+		       "Ticket No  : " + ticketId + "\n" );
+		for (IUsageRecord usage : usages) {
+			builder.append(usage.toString() + "\n");
+		}
+		return builder.toString();
+	}
 
 
 }
