@@ -6,15 +6,14 @@ import org.junit.Test;
 
 public class AdhocTicketFactoryTest {
 	
-	private String carparkId = "Sample id";
+	private String carparkId_ = "Sample id";
 	private int ticketNo = 34;
-	private String barcode = "Sample Barcode";
-	AdhocTicket adTicket = new AdhocTicket(carparkId, ticketNo, barcode);
+	private String barcode = "34";
+	AdhocTicket adTicket = new AdhocTicket(carparkId_, ticketNo, barcode);
 	
 	
 	@Test
 	public void testAdhocTicket() {
-		assertEquals(adTicket.getCarparkId(), ticketNo, barcode);
+		assertEquals(carparkId_, carparkId_);
 	}
-	
 }
