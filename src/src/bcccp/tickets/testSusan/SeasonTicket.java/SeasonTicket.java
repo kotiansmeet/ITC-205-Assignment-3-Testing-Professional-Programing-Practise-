@@ -83,7 +83,7 @@ public class SeasonTicket implements ISeasonTicket {
 	@Override
 	public List<IUsageRecord> getUsageRecords() {
 		// TODO Auto-generated method stub
-		return null;
+		return Collections.unmodifiableList(usages);
 	}
 
 
