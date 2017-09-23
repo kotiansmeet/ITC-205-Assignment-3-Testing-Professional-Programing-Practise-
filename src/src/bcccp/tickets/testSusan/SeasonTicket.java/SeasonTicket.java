@@ -19,6 +19,10 @@ public class SeasonTicket implements ISeasonTicket {
 			             String carparkId, 
 			             long startValidPeriod,
 			             long endValidPeriod) {
+		this.ticketId = ticketId;
+		this.carparkId =carparkId;
+		this.startValidPeriod = startValidPeriod;
+		this.endValidPeriod = endValidPeriod;
 		usages = new ArrayList<IUsageRecord>();
 		// Implemented constructor
 	}
