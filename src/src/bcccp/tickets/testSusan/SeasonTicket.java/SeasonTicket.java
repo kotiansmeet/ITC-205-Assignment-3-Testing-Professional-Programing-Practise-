@@ -19,7 +19,8 @@ public class SeasonTicket implements ISeasonTicket {
 			             String carparkId, 
 			             long startValidPeriod,
 			             long endValidPeriod) {
-		//TDO Implement constructor
+		usages = new ArrayList<IUsageRecord>();
+		// Implemented constructor
 	}
 
 	@Override
