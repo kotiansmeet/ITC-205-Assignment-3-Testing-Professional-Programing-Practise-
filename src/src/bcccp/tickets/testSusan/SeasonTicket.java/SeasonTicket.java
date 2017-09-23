@@ -44,8 +44,8 @@ public class SeasonTicket implements ISeasonTicket {
 
 	@Override
 	public long getEndValidPeriod() {
-		// TODO Auto-generated method stub
-		return 0;
+		// Auto-generated method stub
+		return endValidPeriod;
 	}
 
 	@Override
