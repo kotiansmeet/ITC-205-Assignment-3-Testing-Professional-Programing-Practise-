@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
 public class SeasonTicket implements ISeasonTicket {
 	
 	private List<IUsageRecord> usages;
@@ -28,6 +29,8 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 
 	@Override
+	//test to get the ID
+	@Test  
 	public String getId() {
 		return ticketId;
 		// Auto-generated method stub
@@ -35,30 +38,40 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 
 	@Override
+	//Test to get the CarparkId
+	@Test 
 	public String getCarparkId() {
 		// Auto-generated method stub
 		return carparkId;
 	}
 
 	@Override
+	//Test to get the startValidPeriod
+	@Test
 	public long getStartValidPeriod() {
 		//  Auto-generated method stub
 		return startValidPeriod;
 	}
 
 	@Override
+	//Test to Get the End ValidPeriod
+	@Test
 	public long getEndValidPeriod() {
 		// Auto-generated method stub
 		return endValidPeriod;
 	}
 
 	@Override
+	@test
+	//test to get the use time
 	public boolean inUse() {
 		// Auto-generated method stub
 		return currentUsage != null ;
 	}
 
 	@Override
+	@test
+	//test to get the RecordUsage
 	public void recordUsage(IUsageRecord record) {
 		currentUsage = record;
 		if (!usages.contains(record) ) {
@@ -69,12 +82,16 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 
 	@Override
+	//test to get the currentRecord
+	@Test
 	public IUsageRecord getCurrentUsageRecord() {
 		//  Auto-generated method stub
 		return currentUsage;
 	}
 
 	@Override
+	//test to get the endUsage
+	@Test
 	public void endUsage(long dateTime) {
 		if (currentUsage == null) throw new RuntimeException("SeasonTicket.endUsage : ticket is not in use");
 		
@@ -85,6 +102,8 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 
 	@Override
+	//test to get the list the usage records
+	@Test
 	public List<IUsageRecord> getUsageRecords() {
 		// TODO Auto-generated method stub
 		return Collections.unmodifiableList(usages);

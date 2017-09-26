@@ -30,6 +30,8 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
 
 	@Override
+	@test
+	//test to make the ticket
 	public IAdhocTicket createTicket(String carparkId) {
 	    IAdhocTicket ticket = adhocTicketFactory_.make(carparkId, ++currentTicketNo);
 	    currentTickets.put(ticket.getBarcode(), ticket);
@@ -41,6 +43,8 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
 
 	@Override
+	@Test
+	//Test to find the ticket by barcode
 	public IAdhocTicket findTicketByBarcode(String barcode) {
 		// added Auto-generated method stub
 		return currentTickets.get(barcode);
@@ -49,6 +53,8 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
 
 	@Override
+	@test
+	//Test to list the tickets
 	public List<IAdhocTicket> getCurrentTickets() {
 		// Added Auto-generated method stub
 		return Collections.unmodifiableList(new ArrayList<IAdhocTicket>(currentTickets.values()));	
