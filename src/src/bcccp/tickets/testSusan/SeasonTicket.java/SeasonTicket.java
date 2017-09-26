@@ -46,12 +46,16 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 
 	@Override
+	//Test to get the startValidPeriod
+	@Test
 	public long getStartValidPeriod() {
 		//  Auto-generated method stub
 		return startValidPeriod;
 	}
 
 	@Override
+	//Test to Get the End ValidPeriod
+	@Test
 	public long getEndValidPeriod() {
 		// Auto-generated method stub
 		return endValidPeriod;
