@@ -102,6 +102,8 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 
 	@Override
+	//test to get the list the usage records
+	@Test
 	public List<IUsageRecord> getUsageRecords() {
 		// TODO Auto-generated method stub
 		return Collections.unmodifiableList(usages);
