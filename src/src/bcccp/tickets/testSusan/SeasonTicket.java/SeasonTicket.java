@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-//@test1
+
 public class SeasonTicket implements ISeasonTicket {
 	
 	private List<IUsageRecord> usages;
@@ -29,6 +29,8 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 
 	@Override
+	//test to get the ID
+	@Test  
 	public String getId() {
 		return ticketId;
 		// Auto-generated method stub
