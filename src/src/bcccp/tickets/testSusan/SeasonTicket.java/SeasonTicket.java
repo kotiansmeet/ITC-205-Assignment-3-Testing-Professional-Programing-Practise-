@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+//@test1
 public class SeasonTicket implements ISeasonTicket {
 	
 	private List<IUsageRecord> usages;
