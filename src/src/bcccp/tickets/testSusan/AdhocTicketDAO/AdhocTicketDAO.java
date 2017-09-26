@@ -43,6 +43,8 @@ public class AdhocTicketDAO  implements IAdhocTicketDAO  {
 
 
 	@Override
+	@Test
+	//Test to find the ticket by barcode
 	public IAdhocTicket findTicketByBarcode(String barcode) {
 		// added Auto-generated method stub
 		return currentTickets.get(barcode);
