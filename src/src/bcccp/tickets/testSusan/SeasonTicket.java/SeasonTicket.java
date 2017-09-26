@@ -62,12 +62,16 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 
 	@Override
+	@test
+	//test to get the use time
 	public boolean inUse() {
 		// Auto-generated method stub
 		return currentUsage != null ;
 	}
 
 	@Override
+	@test
+	//test to get the RecordUsage
 	public void recordUsage(IUsageRecord record) {
 		currentUsage = record;
 		if (!usages.contains(record) ) {
@@ -78,12 +82,16 @@ public class SeasonTicket implements ISeasonTicket {
 	}
 
 	@Override
+	//test to get the currentRecord
+	@Test
 	public IUsageRecord getCurrentUsageRecord() {
 		//  Auto-generated method stub
 		return currentUsage;
 	}
 
 	@Override
+	//test to get the endUsage
+	@Test
 	public void endUsage(long dateTime) {
 		if (currentUsage == null) throw new RuntimeException("SeasonTicket.endUsage : ticket is not in use");
 		
