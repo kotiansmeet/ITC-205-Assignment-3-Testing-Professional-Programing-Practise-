@@ -34,6 +34,7 @@ public class AdhocTicket implements IAdhocTicket {
 
 	
 	@Override
+	//here we are getting the car park id
 	public String getCarparkId() {
 		return carparkId_;
 	}
